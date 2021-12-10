@@ -1,0 +1,519 @@
+
+*{
+	box-sizing: border-box;
+}
+
+/* Aqui encontramos todos los cambios de manera no especifica */
+
+/*poner clase*/
+button{
+	background-color: #EEBB19;
+	border-radius: 10px;
+}
+
+body{
+	width: 100%;
+	margin: 0%;
+	font-family: Arial;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+li{
+	list-style: none;
+	margin-right: 15px;
+}
+
+.linea{
+	border-color: #EEBB19;
+	width: 100%;
+}
+
+hr{
+	border-color: black;
+	width: 100%;
+}
+
+
+
+/* Creamos lo que formara parte de todas las paginas de la web (cabezeras y footer) */
+/*Cabezera*/
+.cabecera {
+	background: #EEBB19; 
+	font-size: 1rem;
+
+	width: 100%;
+	height: 10vh;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0px 10px;
+}
+
+.lista_menu{
+	justify-content: flex-start;
+	list-style: none;
+	display: flex;
+	padding: 0%;
+	width: 40%;
+}
+
+.imagen{
+	justify-content: center;
+}
+
+.logo{
+	height: 10vh;
+}
+
+.buscar{
+	justify-content: flex-end;
+	align-content: center;
+	width: 40%;
+	display: flex;
+}
+
+.buscar>a{
+	margin-left: 15px;
+}
+
+.enlace_menu{
+
+	display: inline-flex;
+
+}
+
+.lista_menu2{
+	display: none;
+	justify-content: flex-start;
+	list-style: none;
+	padding: 0%;
+	width: 40%;
+}
+
+.buscar2{
+	justify-content: flex-end;
+	align-content: center;
+	width: 40%;
+	display: none;
+}
+
+
+/*pie de página*/
+
+footer{
+	background: #EEBB19; 
+	font-size: 1rem;
+
+	width: 100%;
+	height: 10vh;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0px 10px;
+}
+
+.insta{
+	margin: 0px 0px 0px 10px;
+}
+
+.icono{
+	height: 30px;
+}
+
+/* Creamos la web principal */
+
+.arriba{
+	padding: 0px 10px 10px 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.bienv{
+
+	color:#FC9F02;
+	-webkit-text-stroke: 0.5px black;
+	width: 45%;
+}
+
+.pres{
+	text-align: end;
+	color:#FC9F02;
+	font-size: 1.3rem;
+	-webkit-text-stroke: 0.5px black;
+	width: 45%;
+}
+
+.principal {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 60px 30px 60px;
+	height:auto;
+}
+
+
+.izq{
+	display: flex;
+	width: 30%;
+	-webkit-text-stroke: 0.5px black;
+	color:#FC9F02;
+	background: url(../img/Majo-no-Tabitabi-banner-3.png);
+	min-height: 500px;
+	background-size: cover;
+}
+
+.cent{
+	display: flex;
+	-webkit-text-stroke: 0.5px black;
+	color:#FC9F02;
+	width: 30%;
+	min-height: 500px;
+	background: url(../img/__majima_makoto_ikebukuro_west_gate_park_drawn_by_sigerufn__bb45a32ee44cbd5943d2b996959e796a.png) no-repeat;
+	background-size: cover;
+}
+
+.der{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	justify-content: center;
+	text-align: center;
+	min-height: 500px;
+	width: 30%;
+	background: url(../img/EixkOA0WkAIMl2d.png) no-repeat;
+	background-size: cover;
+	
+}
+
+.principal>div>a{
+	width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 495px;
+	color: #FC9F02;
+	-webkit-text-stroke: 0.8px black;
+}
+
+/*Creamos la página del formulario*/
+
+.formulario{
+	width: 100%;
+	display: flex ;
+	justify-content: space-around;
+	height: 38vw;
+	align-items: center;
+}
+
+.contac{
+	width: 100%;
+	height: 38vw;
+	text-align: center;
+}
+
+
+/*Creamos la pagina de presentación del artista*/
+
+.artista{
+	display: flex;
+	align-items: center;
+}
+
+.dibujo{
+padding-top: 10px;
+}
+
+
+.dibu{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	width: 30%;
+}
+
+
+.dos{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+	margin: 20px 0px 20px 0px;
+
+}
+
+.contactos{
+	display: flex;
+	align-items: center;
+
+
+}
+
+.perfil{
+	width: 200px;
+	border-radius: 100px;
+	border:4px solid #FC9F02;
+}
+
+.contacto{
+	width: 60px;
+}
+
+
+/*Creamos la zona artistas*/
+.arte{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 120vw;
+	width: 100%;
+}
+
+.instagram> img{
+	width: inherit;
+}
+.instagram{
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
+	padding-bottom: 20px;
+	margin: 0px;
+	align-items: center;
+	
+}
+
+.instagram > figcaption{
+	width: inherit;
+}
+
+
+.botones{
+	padding: 15px;
+}
+
+/*foro*/
+.foro{
+	height: auto;
+}
+.discusion{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	margin: 5px 5px;
+	border:1px solid #FC9F02;
+}
+
+.vermas{
+	justify-content: center;
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.x{
+	width: 30px;
+}
+
+/*BLOG*/
+.blog{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.entrada{
+	display: flex;
+	align-items: center;
+	width: 25vw;
+	flex-direction: column;
+	padding: 10px
+}
+
+.entrada *{
+	width: inherit;
+}
+
+.entrada > button {
+	width: 90px;
+	border-radius: 0%;
+}
+
+.entrada > a > button {
+	width: 90px;
+	border-radius: 0%;
+	align-items: center;
+}
+
+.noticia{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.noticia > h1 {
+	text-align: center;
+}
+
+.parrafos {
+	width: 95%;
+}
+
+.comentario{
+	width: 60%;
+	height: 100px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+@media (max-width:770px) {
+	footer{
+		height: 13vh;
+		flex-wrap: unset;
+		flex-direction: column;
+	}
+	.lista_menu{
+		display: none;
+	}
+	.lista_menu2{
+		display: flex;
+		width: 30%;
+	}
+
+	.buscar{
+		display: none;
+	}
+	.buscar2{
+		display: flex;
+		width: 30%;
+		justify-content: space-evenly;
+	}
+
+    .principal > div{
+        width: 100%;
+		margin-top: 30px;
+    }
+	.principal{
+		padding: 10px;
+	}
+
+	.arriba{
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+	.bienv{
+		width: auto;
+	}
+	.pres{
+		width: auto;
+		text-align: center;
+	}
+
+	.entrada{
+		width: 60vh;
+	}
+
+	/*ENTRADA DEL BLOG*/
+
+	.arte{
+		padding: 10px;
+		flex-direction: column;
+		height: 110vw;
+	}
+
+	.instagram{
+		margin: 10px;
+	}
+
+	.zonaC{
+		width: 90%;
+		text-align: left;
+		
+	}
+
+}
+
+@media (max-width:430px){
+	footer{
+		height: 13vh;
+		flex-wrap: unset;
+		flex-direction: column;
+	}
+	.lista_menu{
+		display: none;
+	}
+	.lista_menu2{
+		display: flex;
+		width: 30%;
+	}
+	.buscar{
+		display: none;
+	}
+	.buscar2{
+		display: flex;
+		width: 30%;
+		justify-content: space-evenly;
+	}
+	.formulario{
+		height: auto;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+		padding: 10px;
+	}
+
+	.artista{
+		flex-direction: column;
+	}
+	.dibu{
+		width: 95%;
+	}
+
+	.dos{
+		width: 75%;
+	}
+
+	.arte{
+		justify-content: space-evenly;
+		flex-direction: column;
+		height: auto;
+	}
+	
+	.instagram{
+		width: 95%;
+	}
+	.discusion{
+		flex-direction: column;	
+		justify-content: center;
+		text-align: center;
+		padding: 20px;
+	}
+	.discusion > img{
+		width:50%;
+
+	}
+
+	.entrada{
+		width: 50vh;
+	}
+
+	.noticia > h1{
+		font-size: 100%;
+	}
+}

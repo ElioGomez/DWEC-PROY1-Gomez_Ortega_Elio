@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="CSS\slider.css">
+    <link rel="stylesheet" href="CSS\main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body onload="currentSlide(1)">
+    <script src="js\slider.js"></script>
+    <header class="cabecera ">
+        <ul class="lista_menu">
+            <li><a href="blog.html" class="enlace_menu"><i class="far fa-comment-dots"></i>Blog</a></li>
+            <li><a href="foro.html" class="enlace_menu"><i class="far fa-edit"></i>Foro</a></li>
+            <li><a href="zonaartista.html" class="enlace_menu"><i class="fas fa-paint-brush"></i>Zona Artista</a>
+            </li>
+        </ul>
+        <ul class="lista_menu2">
+            <li><a href="blog.html" class="enlace_menu"><i class="far fa-comment-dots"></i></a></li>
+            <li><a href="foro.html" class="enlace_menu"><i class="far fa-edit"></i></a></li>
+            <li><a href="zonaartista.html" class="enlace_menu"><i class="fas fa-paint-brush"></i></a>
+            </li>
+        </ul>
+    <div class="imagen">
+        <a href="Principal.html"><img class="logo" src="img\LOGO.png"></a>
+    </div>
+
+    <div class="buscar">
+        <a for="buscar" href="#"><i class="fas fa-search"></i>Buscar</a>
+     
+        <a href="Registro.html"><i class="far fa-user"></i>Mi zona</a>
+    </div>
+
+    <div class="buscar2">
+        <a for="buscar2" href="#"><i class="fas fa-search"></i></a>
+     
+        <a href="Registro.html"><i class="far fa-user"></i></a>
+    </div>
+</header>
+
+<div class="arriba">
+    <h1 class="bienv">BIENVENIDO A NUESTRO RINCON DEL ANIME</h1>
+    <p class="pres">Aquí podrás leer y disfrutar de una gran variedad de contenidos relacionado con el anime,
+        desde noticias regulares hasta fan arts y obras de pequeños artistas </p>
+    </div>
+
+
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="./img/Majo-no-Tabitabi-banner-3.png" style="width: auto;">
+          <div class="text">Anime de la semana <br> Majo No Tabitabi</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="./img/__majima_makoto_ikebukuro_west_gate_park_drawn_by_sigerufn__bb45a32ee44cbd5943d2b996959e796a.png" style="width: auto;">
+          <div class="text">Personaje de la semana <br> Makoto Majima</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="./img/EixkOA0WkAIMl2d.png" style="width: auto; align-self: center;">
+          <div class="text">Artista de la semana <br> Pau </div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+
+      <footer>
+        <div>
+            <a>Politicas de privacidad</a>
+        </div>
+
+        <div class="icon">
+            <a href="https://twitter.com/Fandezapeando"><img class="icono" src="img/descarga.png"></a>
+            <a href="https://www.instagram.com/"><img class="insta icono" src="img/insta.png"></a>
+        </div>
+
+        <div>
+            <a>¿Te gusatria colaborar con nosotros?</a>
+        </div>
+        
+    </footer>
+</body>
+</html>

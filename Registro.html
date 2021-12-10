@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS\main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="js\script.js">
+    </script>
+</head>
+<body class="registro">
+    <header class="cabecera ">
+        <ul class="lista_menu">
+            <li><a href="blog.html" class="enlace_menu"><i class="far fa-comment-dots"></i>Blog</a></li>
+            <li><a href="foro.html" class="enlace_menu"><i class="far fa-edit"></i>Foro</a></li>
+            <li><a href="zonaartista.html" class="enlace_menu"><i class="fas fa-paint-brush"></i>Zona Artista</a>
+            </li>
+        </ul>
+        <ul class="lista_menu2">
+            <li><a href="blog.html" class="enlace_menu"><i class="far fa-comment-dots"></i></a></li>
+            <li><a href="foro.html" class="enlace_menu"><i class="far fa-edit"></i></a></li>
+            <li><a href="zonaartista.html" class="enlace_menu"><i class="fas fa-paint-brush"></i></a>
+            </li>
+        </ul>
+    <div class="imagen">
+        <a href="Principal.html"><img class="logo" src="img\LOGO.png"></a>
+    </div>
+
+    <div class="buscar">
+        <a for="buscar" href="#"><i class="fas fa-search"></i>Buscar</a>
+     
+        <a href="Registro.html"><i class="far fa-user"></i>Mi zona</a>
+    </div>
+
+    <div class="buscar2">
+        <a for="buscar2" href="#"><i class="fas fa-search"></i></a>
+     
+        <a href="Registro.html"><i class="far fa-user"></i></a>
+    </div>
+</header>
+    <main>
+<nav class="formulario">
+<div class="IS">
+    <h1>Iniciar sesión</h1>
+    <form>
+        <ul>
+         <li>
+            <p>Usuario <br> <input type="text" class="name" name="user_name" id="usuarioI" ></p>
+           
+         </li>
+         <li>
+            <p>Clave <br> <input type="password" class="pass" name="user_pass" id="claveI" ></p>
+           
+         </li>
+         <li>
+             <button onclick="VIniciar()">Aceptar</button>
+         </li>
+        </ul>
+    </form>
+</div>
+
+<div class="Reg">
+    <h1>Registrarse</h1>
+    <form action="" method="post">
+        <ul>
+         <li>
+           <p>Nombre <br> <input type="text" class="name" name="user_name" id="usuarioR"></p>
+           
+         </li>
+         <li>
+           <p> Contraseña<br> <input type="password" class="pass" name="user_pass" id="claveR"></p>
+           
+         </li>
+         <li>
+            <p>Repita la Contraseña<br><input type="password" class="rpass" name="user_rpass" id="claveRR"></p>
+            
+         </li>
+         <li>
+             <label for="tu" class="tu">Acepto los terminos de uso</label >
+             <input type="checkbox" class="tu" name="tu" id="terminos">
+         </li>
+         <li>
+            <button onclick="VRegistro()">Registrarse</button>
+        </li>
+
+        </ul>
+    </form>
+</div>
+</nav>
+        
+
+
+    </main>
+    <footer>
+        <div>
+            <a>Politicas de privacidad</a>
+        </div>
+
+        <div class="icon">
+            <a href="https://twitter.com/Fandezapeando"><img class="icono" src="img/descarga.png"></a>
+            <a href="https://www.instagram.com/"><img class="insta icono" src="img/insta.png"></a>
+        </div>
+
+        <div>
+            <a>¿Te gusatria colaborar con nosotros?</a>
+        </div>
+        
+    </footer>
+
+
+</body>
+</html>

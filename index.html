@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina principal</title>
+    <link rel="stylesheet" href="CSS\slider.css">
     <link rel="stylesheet" href="CSS\main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
 </head>
 
-<body>
+<body onload="currentSlide(1)">
+    <script src="js\slider.js"></script>
     <header class="cabecera ">
         <ul class="lista_menu">
             <li><a href="blog.html" class="enlace_menu"><i class="far fa-comment-dots"></i>Blog</a></li>
@@ -41,58 +44,46 @@
         </div>
     </header>
 
-    <main>
+    <div class="arriba">
+        <h1 class="bienv">BIENVENIDO A NUESTRO RINCON DEL ANIME</h1>
+        <p class="pres">Aquí podrás leer y disfrutar de una gran variedad de contenidos relacionado con el anime,
+            desde noticias regulares hasta fan arts y obras de pequeños artistas </p>
+    </div>
 
-        <div class="botones">
-            <button>Ordenar</button>
-            <button>Filtrar</button>
+
+    <div class="slideshow-container">
+
+    
+        <div class="mySlides fade">
+            <img src="./img/Majo-no-Tabitabi-banner-3.png" style="width: auto;">
+            <div class="text">Anime de la semana <br> Majo No Tabitabi</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./img/__majima_makoto_ikebukuro_west_gate_park_drawn_by_sigerufn__bb45a32ee44cbd5943d2b996959e796a.png"
+                style="width: auto;">
+            <div class="text">Personaje de la semana <br> Makoto Majima</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./img/EixkOA0WkAIMl2d.png" style="width: auto; align-self: center;">
+            <div class="text">Artista de la semana <br> Pau </div>
         </div>
 
 
-        <div class="blog">
-            <div class="entrada">
-                <img src="img/dc.png">
-                <p>LOS ANIMES MAS LARGOS</p>
-                <button><a href="Entrada.html">LEER MAS</a></button>
-            </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
 
-            <div class="entrada">
-                <img src="img/dc.png">
-                <p>LOS ANIMES MAS LARGOS</p>
-                <button><a href="Entrada.html">LEER MAS</a></button>
-            </div>
 
-            <div class="entrada">
-                <img src="img/dc.png">
-                <p>LOS ANIMES MAS LARGOS</p>
-                <button><a href="Entrada.html">LEER MAS</a></button>
-            </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
 
-            <div class="entrada">
-                <img src="img/dc.png">
-                <p>LOS ANIMES MAS LARGOS</p>
-                <button><a href="Entrada.html">LEER MAS</a></button>
-            </div>
 
-            <div class="entrada">
-                <img src="img/dc.png">
-                <p>LOS ANIMES MAS LARGOS</p>
-                <button><a href="Entrada.html">LEER MAS</a></button>
-            </div>
-
-            <div class="entrada">
-                <img src="img/dc.png">
-                <p>LOS ANIMES MAS LARGOS</p>
-                <button><a href="Entrada.html">LEER MAS</a></button>
-            </div>
-
-        </div>
-
-        <div class="vermas">
-            <button>Ver mas</button>
-        </div>
-
-    </main>
     <footer>
         <div>
             <a>Politicas de privacidad</a>
@@ -108,7 +99,6 @@
         </div>
 
     </footer>
-    <script src="js/main.js"></script>
 </body>
 
 </html>

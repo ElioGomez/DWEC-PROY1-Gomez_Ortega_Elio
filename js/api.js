@@ -1,5 +1,7 @@
-//En este Script lo que vamos ha hacer es llamar a la API
-//Pera ello lo primero es crear la query con los datos que nos va a ofrecer, en este caso sera el nuero de resouestas que queresmos
+//En este Script lo que vamos ha hacer es llamar a la API, esto apoyara a nustro proycto pudiendo recoger de manera masiva una gran cantidad
+//de datos de un servidor externo sin necesidad de tener que cargarlo todo en nuestro proyecto.
+
+//Para ello lo primero es crear la query con los datos que nos va a ofrecer, en este caso sera el nuero de resouestas que queresmos
 //y el titulo de los animes que hemos buscado
 
 var query = `

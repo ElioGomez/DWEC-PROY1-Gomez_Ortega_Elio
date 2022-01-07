@@ -380,6 +380,16 @@ padding-top: 10px;
 	margin-bottom: 10px;
 }
 
+.mainD{
+	height: 100%;
+}
+.directorio{
+	
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
 
 @media (max-width:770px) {
 	footer{

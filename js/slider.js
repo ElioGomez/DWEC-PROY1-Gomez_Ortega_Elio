@@ -1,7 +1,7 @@
 //Esta son las funciones qu ehacen funcionar el slider 
 
-var slideIndex = 1;
-showSlides(slideIndex);
+//var slideIndex = 1;
+//showSlides(slideIndex);
 
 //Permite pasar imagenes con las flechas a los lados del carrusel
 function plusSlides(n) {

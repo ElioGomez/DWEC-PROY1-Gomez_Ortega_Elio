@@ -1,0 +1,9 @@
+1.Para acceder a la pagina donde hago las llamadas solo debe clickar en la lupa que se encuentra en la esquina superior derecha de cualquiera de las paginas
+
+2.Las paginas funcionales para este proyecto son:
+-Pagina de inicio
+-Blog (los recudroas para acceder a la entrada)
+-La entrada
+-Registro e inicio de sesión 
+-buscador
+El resto de las paginas son solo el diseño.

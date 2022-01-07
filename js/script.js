@@ -249,3 +249,7 @@ function Vcontacto() {
     alert("Informacion enviada correctamente")
   }
 }
+
+
+
+
